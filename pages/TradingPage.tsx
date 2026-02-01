@@ -155,7 +155,7 @@ const TradingPage: React.FC<{ state: GlobalState, setState: React.Dispatch<React
                     <span className="font-bold text-slate-400 text-[10px] uppercase tracking-widest">Trade Log</span>
                   </div>
                   <div className="flex items-center gap-1.5">
-                    <span className="text-[9px] font-bold text-slate-400 uppercase">Sum Unreal >></span>
+                    <span className="text-[9px] font-bold text-slate-400 uppercase">Sum Unreal &raquo;</span>
                     <span className={`text-[11px] font-black ${sumActivityUnrealized >= 0 ? 'text-emerald-600' : 'text-rose-600'}`}>
                       {format(sumActivityUnrealized)}
                     </span>
